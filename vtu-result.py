@@ -16,7 +16,7 @@ def job():
     br = Browser()
     br.open("http://results.vtu.ac.in/vitavi.php")
     br.select_form(name="new")
-    br.form[ 'rid' ] = '1pe12cs132'
+    br.form[ 'rid' ] = '1pe12cs001'
     response = br.submit()  # submit current form
     html=response.read()
 
